@@ -16,7 +16,7 @@ namespace cmcsapp.Controllers
             _context = context;
         }
 
-        // Get all approved claims
+        // Get all approved claim
         [HttpGet("GetApprovedClaims")]
         public List<Claim> GetApprovedClaims()
         {
