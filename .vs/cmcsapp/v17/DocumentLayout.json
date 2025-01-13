@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\lecturer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:wwwroot\\lecturer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\ST10082749cmcs\\README.md",
               "RelativeDocumentMoniker": "ST10082749cmcs\\README.md",
@@ -110,8 +110,7 @@
               "RelativeToolTip": "ST10082749cmcs\\README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-01-13T13:03:01.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T13:03:01.016Z"
             },
             {
               "$type": "Document",
@@ -127,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HRController.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Controllers\\HRController.cs",
               "RelativeDocumentMoniker": "Controllers\\HRController.cs",
@@ -151,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Claim.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Data\\Claim.cs",
               "RelativeDocumentMoniker": "Data\\Claim.cs",
@@ -163,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "coordinator.html",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.html",
               "RelativeDocumentMoniker": "wwwroot\\coordinator.html",
@@ -175,19 +174,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
               "ToolTip": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\index.html",
               "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-20T17:09:07.915Z"
+              "WhenOpened": "2024-11-20T17:09:07.915Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CoordinatorController.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Controllers\\CoordinatorController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoordinatorController.cs",
@@ -195,18 +195,17 @@
               "RelativeToolTip": "Controllers\\CoordinatorController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:40:18.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T12:40:18.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "lecturer.js",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.js",
               "RelativeDocumentMoniker": "wwwroot\\lecturer.js",
               "ToolTip": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.js",
               "RelativeToolTip": "wwwroot\\lecturer.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-20T11:27:14.666Z",
               "EditorCaption": ""
