@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\pages\\hr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:pages\\hr.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\coordinator.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "hr.cshtml",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Pages\\hr.cshtml",
               "RelativeDocumentMoniker": "Pages\\hr.cshtml",
@@ -110,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HRController.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Controllers\\HRController.cs",
               "RelativeDocumentMoniker": "Controllers\\HRController.cs",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "LecturerController.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Controllers\\LecturerController.cs",
               "RelativeDocumentMoniker": "Controllers\\LecturerController.cs",
@@ -147,19 +147,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "coordinator.html",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.html",
               "RelativeDocumentMoniker": "wwwroot\\coordinator.html",
               "ToolTip": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.html",
               "RelativeToolTip": "wwwroot\\coordinator.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-21T12:41:47.02Z"
+              "WhenOpened": "2024-11-21T12:41:47.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
@@ -167,8 +168,7 @@
               "RelativeToolTip": "wwwroot\\index.html",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-20T17:09:07.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T17:09:07.915Z"
             },
             {
               "$type": "Document",
@@ -184,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "lecturer.js",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.js",
               "RelativeDocumentMoniker": "wwwroot\\lecturer.js",
@@ -196,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "lecturer.html",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.html",
               "RelativeDocumentMoniker": "wwwroot\\lecturer.html",
