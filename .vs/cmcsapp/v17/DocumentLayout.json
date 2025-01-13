@@ -128,7 +128,7 @@
               "RelativeDocumentMoniker": "Controllers\\LecturerController.cs",
               "ToolTip": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Controllers\\LecturerController.cs",
               "RelativeToolTip": "Controllers\\LecturerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T15:23:38.669Z",
               "EditorCaption": ""
@@ -230,10 +230,6 @@
               "WhenOpened": "2025-01-11T15:55:11.857Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
@@ -292,6 +288,10 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-20T10:30:16Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",

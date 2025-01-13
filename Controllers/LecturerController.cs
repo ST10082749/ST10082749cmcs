@@ -16,7 +16,7 @@ namespace cmcsapp.Controllers
             _context = context;
         }
 
-        // Endpoint to allow lecturers to submit their details
+        //  allow lecturers to submit their details
         [HttpPost("SubmitLecturer")]
         public async Task<IActionResult> SubmitLecturer([FromBody] Lecturer lecturer)
         {
