@@ -3,12 +3,12 @@
 
     // Submit Lecturer Details
     $('#lecturerForm').on('submit', function (e) {
-        e.preventDefault(); // Prevent default form submission
+        e.preventDefault(); 
 
         const lecturerData = {
-            name: $('#lecturerName').val(), // Get lecturer name
-            email: $('#lecturerEmail').val(), // Get lecturer email
-            department: $('#lecturerDepartment').val() // Get lecturer department
+            name: $('#lecturerName').val(), 
+            email: $('#lecturerEmail').val(),
+            department: $('#lecturerDepartment').val() 
         };
 
         // AJAX request to submit lecturer details
