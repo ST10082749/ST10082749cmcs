@@ -1,0 +1,6 @@
+wwwroot\coordinator.html
+wwwroot\coordinator.js
+wwwroot\index.html
+wwwroot\lecturer.html
+wwwroot\lecturer.js
+wwwroot\Styles.css

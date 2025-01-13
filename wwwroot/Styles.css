@@ -1,0 +1,199 @@
+﻿/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+    padding: 20px;
+    line-height: 1.8;
+}
+
+/* Centered container with 4x4 grid layout */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px; /* Spacing between grid items */
+    margin-top: 20px; /* Add space at the top */
+}
+
+nav {
+    display:inline-block;
+}
+ul{
+    list-style-type:none;
+    position:relative;
+    display:inline;
+
+}
+
+li {
+    margin: 20px;
+}
+
+a {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    text-decoration:none;
+    text-align: center;
+}
+
+a:hover {
+    border: 1px solid grey;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a:active {
+    color: blue;
+}
+
+/* Header styling */
+ h2 {
+    grid-column: span 4; /* Header spans the full width */
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 2rem; /* Slightly larger for emphasis */
+    text-transform: uppercase;
+    border-bottom: 3px solid #000000; /* Thicker underline */
+    padding-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    background-color: #f9f9f9; /* Slightly off-white background */
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    grid-column: span 2; /* Take up 2 columns */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+    transition: transform 0.3s ease; /* Add a hover effect */
+}
+
+    form:hover {
+        transform: scale(1.02); /* Slight zoom on hover */
+    }
+
+    /* Form labels and inputs */
+    form label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #000000;
+    }
+
+    form input,
+    form select,
+    form button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #000000;
+        border-radius: 4px;
+        background-color: #ffffff;
+        color: #000000;
+        font-size: 1rem; /* Uniform text size */
+    }
+
+        form input:focus,
+        form select:focus {
+            outline: none;
+            border-color: #555555; /* Dark gray border on focus */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Subtle glow effect */
+        }
+
+/* Button styling */
+button {
+    background-color: #000000; /* Black button */
+    color: #ffffff; /* White text */
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    button:hover {
+        background-color: #555555; /* Dark gray hover */
+        transform: scale(1.05); /* Slightly larger on hover */
+    }
+
+/* Table styling */
+table {
+    grid-column: span 4; /* Take up full width */
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border: 1px solid #000000;
+}
+
+    table th,
+    table td {
+        border: 1px solid #000000;
+        text-align: center;
+        padding: 10px;
+    }
+
+    table th {
+        background-color: #000000; /* Black header */
+        color: #ffffff; /* White text */
+        font-weight: bold;
+        text-transform: uppercase; /* Consistent capitalization */
+    }
+
+    table td {
+        color: #000000;
+    }
+
+/* Footer styling */
+footer {
+    grid-column: span 4;
+    text-align: center;
+    padding: 10px;
+    background-color: #000000; /* Black footer */
+    color: #ffffff; /* White text */
+    margin-top: 20px;
+    font-size: 0.9rem;
+    position:absolute;
+    border-top: 3px solid #555555; /* Subtle top border */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+        gap: 15px; /* Slightly smaller gap */
+    }
+
+    h1, h2 {
+        grid-column: span 2; /* Adjust header span */
+        font-size: 1.5rem; /* Smaller font size for smaller screens */
+    }
+
+    form {
+        grid-column: span 2; /* Adjust form span */
+    }
+
+    table {
+        grid-column: span 2; /* Adjust table span */
+    }
+
+    footer {
+        grid-column: span 2;
+    }
+}

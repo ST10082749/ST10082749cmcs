@@ -1,0 +1,215 @@
+[
+  {
+    "ContainingType": "cmcsapp.Controllers.CoordinatorController",
+    "Method": "ApproveClaim",
+    "RelativePath": "api/Coordinator/ApproveClaim/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.CoordinatorController",
+    "Method": "GetPendingClaims",
+    "RelativePath": "api/Coordinator/GetPendingClaims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.CoordinatorController",
+    "Method": "RejectClaim",
+    "RelativePath": "api/Coordinator/RejectClaim/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.HRController",
+    "Method": "ApproveClaim",
+    "RelativePath": "api/HR/ApproveClaim/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.HRController",
+    "Method": "GetApprovedClaims",
+    "RelativePath": "api/HR/GetApprovedClaims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[cmcsapp.Claim, cmcsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.HRController",
+    "Method": "GetLecturers",
+    "RelativePath": "api/HR/GetLecturers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[cmcsapp.Data.Lecturer, cmcsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.HRController",
+    "Method": "GetPendingClaims",
+    "RelativePath": "api/HR/GetPendingClaims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[cmcsapp.Claim, cmcsapp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.HRController",
+    "Method": "RejectClaim",
+    "RelativePath": "api/HR/RejectClaim/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.HRController",
+    "Method": "UpdateLecturer",
+    "RelativePath": "api/HR/UpdateLecturer/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedLecturer",
+        "Type": "cmcsapp.Data.Lecturer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.LecturerController",
+    "Method": "GetAllClaims",
+    "RelativePath": "api/Lecturer/GetAllClaims",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.LecturerController",
+    "Method": "GetClaimsByStatus",
+    "RelativePath": "api/Lecturer/GetClaimsByStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "status",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.LecturerController",
+    "Method": "SubmitClaim",
+    "RelativePath": "api/Lecturer/SubmitClaim",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claim",
+        "Type": "cmcsapp.Claim",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "cmcsapp.Controllers.LecturerController",
+    "Method": "SubmitLecturer",
+    "RelativePath": "api/Lecturer/SubmitLecturer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lecturer",
+        "Type": "cmcsapp.Data.Lecturer",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

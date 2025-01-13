@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecturer Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="lecturer.js"></script> <!-- JavaScript for form submission -->
+</head>
+<body>
+    <header>
+        <h1>Lecturer Dashboard</h1>
+    </header>
+
+    <!-- Section: Submit Lecturer Details -->
+    <section>
+        <h2>Submit Your Details</h2>
+        <form id="lecturerForm">
+            <label for="lecturerName">Name:</label>
+            <input type="text" id="lecturerName" required>
+
+            <label for="lecturerEmail">Email:</label>
+            <input type="email" id="lecturerEmail" required>
+
+            <label for="lecturerDepartment">Department:</label>
+            <input type="text" id="lecturerDepartment" required>
+
+            <button type="submit">Submit Details</button>
+        </form>
+    </section>
+
+    <!-- Section: Submit Claim -->
+    <section>
+        <h2>Submit a Claim</h2>
+        <form id="claimForm">
+            <label for="hoursWorked">Hours Worked:</label>
+            <input type="number" id="hoursWorked" required>
+
+            <label for="hourlyRate">Hourly Rate:</label>
+            <input type="number" id="hourlyRate" step="0.01" required>
+
+            <button type="submit">Submit Claim</button>
+        </form>
+    </section>
+
+    <!-- Section: Submitted Claims -->
+    <section>
+        <h2>Submitted Claims</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Hours Worked</th>
+                    <th>Hourly Rate</th>
+                    <th>Total Payment</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="claimsTableBody"></tbody>
+        </table>
+    </section>
+</body>
+</html>

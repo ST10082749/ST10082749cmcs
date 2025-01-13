@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "weIQLmeyEP6HlDBO3d/V8kBxHoFrsjuug0aXCV5J+zg=",
+  "Source": "cmcsapp",
+  "BasePath": "_content/cmcsapp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "cmcsapp\\wwwroot",
+      "Source": "cmcsapp",
+      "ContentRoot": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\",
+      "BasePath": "_content/cmcsapp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.html",
+      "SourceId": "cmcsapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\",
+      "BasePath": "_content/cmcsapp",
+      "RelativePath": "coordinator#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "15675mlayf",
+      "Integrity": "K9h37oiJLCLpwN0+3SOJvywupR3lj029LvWyxx/wdq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\coordinator.html"
+    },
+    {
+      "Identity": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.js",
+      "SourceId": "cmcsapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\",
+      "BasePath": "_content/cmcsapp",
+      "RelativePath": "coordinator#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kzw2d5a0qg",
+      "Integrity": "gOu6T5O17vbUskqj88R2xFoioOqR1TZPlZQqCfIV6qw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\coordinator.js"
+    },
+    {
+      "Identity": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\index.html",
+      "SourceId": "cmcsapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\",
+      "BasePath": "_content/cmcsapp",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cim97gv5t1",
+      "Integrity": "zE5w/4eAouz+W0bvqIwHAsN+6Y+gPSxfnhPOWIDli88=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.html",
+      "SourceId": "cmcsapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\",
+      "BasePath": "_content/cmcsapp",
+      "RelativePath": "lecturer#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ikg9o8bl7s",
+      "Integrity": "IuQ6r0dOwPsaTy55YkAqKrUrQHJV5PqUQAdS2egDhck=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lecturer.html"
+    },
+    {
+      "Identity": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.js",
+      "SourceId": "cmcsapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\",
+      "BasePath": "_content/cmcsapp",
+      "RelativePath": "lecturer#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d8lxlsf09c",
+      "Integrity": "QwHJiNgqeDP5UdjB9vPEaRjtE/qLo9F1fk+kZ6FjGq4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lecturer.js"
+    },
+    {
+      "Identity": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\Styles.css",
+      "SourceId": "cmcsapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\",
+      "BasePath": "_content/cmcsapp",
+      "RelativePath": "Styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9oy1w2l43z",
+      "Integrity": "N+IQ2PSv6w+at7Aty58jrWwAEyoYRqOPRLrtv5oRNzQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Styles.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "coordinator.15675mlayf.html",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K9h37oiJLCLpwN0+3SOJvywupR3lj029LvWyxx/wdq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 21:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "15675mlayf"
+        },
+        {
+          "Name": "label",
+          "Value": "coordinator.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K9h37oiJLCLpwN0+3SOJvywupR3lj029LvWyxx/wdq4="
+        }
+      ]
+    },
+    {
+      "Route": "coordinator.html",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "918"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K9h37oiJLCLpwN0+3SOJvywupR3lj029LvWyxx/wdq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 21:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K9h37oiJLCLpwN0+3SOJvywupR3lj029LvWyxx/wdq4="
+        }
+      ]
+    },
+    {
+      "Route": "coordinator.js",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gOu6T5O17vbUskqj88R2xFoioOqR1TZPlZQqCfIV6qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 12:50:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gOu6T5O17vbUskqj88R2xFoioOqR1TZPlZQqCfIV6qw="
+        }
+      ]
+    },
+    {
+      "Route": "coordinator.kzw2d5a0qg.js",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2313"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gOu6T5O17vbUskqj88R2xFoioOqR1TZPlZQqCfIV6qw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 21 Nov 2024 12:50:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kzw2d5a0qg"
+        },
+        {
+          "Name": "label",
+          "Value": "coordinator.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gOu6T5O17vbUskqj88R2xFoioOqR1TZPlZQqCfIV6qw="
+        }
+      ]
+    },
+    {
+      "Route": "index.cim97gv5t1.html",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zE5w/4eAouz+W0bvqIwHAsN+6Y+gPSxfnhPOWIDli88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 21:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cim97gv5t1"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zE5w/4eAouz+W0bvqIwHAsN+6Y+gPSxfnhPOWIDli88="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1277"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zE5w/4eAouz+W0bvqIwHAsN+6Y+gPSxfnhPOWIDli88=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 12 Jan 2025 21:20:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zE5w/4eAouz+W0bvqIwHAsN+6Y+gPSxfnhPOWIDli88="
+        }
+      ]
+    },
+    {
+      "Route": "lecturer.d8lxlsf09c.js",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwHJiNgqeDP5UdjB9vPEaRjtE/qLo9F1fk+kZ6FjGq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 07:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d8lxlsf09c"
+        },
+        {
+          "Name": "label",
+          "Value": "lecturer.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwHJiNgqeDP5UdjB9vPEaRjtE/qLo9F1fk+kZ6FjGq4="
+        }
+      ]
+    },
+    {
+      "Route": "lecturer.html",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IuQ6r0dOwPsaTy55YkAqKrUrQHJV5PqUQAdS2egDhck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 07:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IuQ6r0dOwPsaTy55YkAqKrUrQHJV5PqUQAdS2egDhck="
+        }
+      ]
+    },
+    {
+      "Route": "lecturer.ikg9o8bl7s.html",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IuQ6r0dOwPsaTy55YkAqKrUrQHJV5PqUQAdS2egDhck=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 07:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ikg9o8bl7s"
+        },
+        {
+          "Name": "label",
+          "Value": "lecturer.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IuQ6r0dOwPsaTy55YkAqKrUrQHJV5PqUQAdS2egDhck="
+        }
+      ]
+    },
+    {
+      "Route": "lecturer.js",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QwHJiNgqeDP5UdjB9vPEaRjtE/qLo9F1fk+kZ6FjGq4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 13 Jan 2025 07:30:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QwHJiNgqeDP5UdjB9vPEaRjtE/qLo9F1fk+kZ6FjGq4="
+        }
+      ]
+    },
+    {
+      "Route": "Styles.9oy1w2l43z.css",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\Styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N+IQ2PSv6w+at7Aty58jrWwAEyoYRqOPRLrtv5oRNzQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Jan 2025 14:49:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9oy1w2l43z"
+        },
+        {
+          "Name": "label",
+          "Value": "Styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+IQ2PSv6w+at7Aty58jrWwAEyoYRqOPRLrtv5oRNzQ="
+        }
+      ]
+    },
+    {
+      "Route": "Styles.css",
+      "AssetFile": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\Styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"N+IQ2PSv6w+at7Aty58jrWwAEyoYRqOPRLrtv5oRNzQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 11 Jan 2025 14:49:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-N+IQ2PSv6w+at7Aty58jrWwAEyoYRqOPRLrtv5oRNzQ="
+        }
+      ]
+    }
+  ]
+}

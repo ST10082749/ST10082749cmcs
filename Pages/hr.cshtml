@@ -1,0 +1,200 @@
+﻿@page "/hr"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto;
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            border: 1px solid #000;
+            padding: 15px;
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+            .btn:hover {
+                background-color: #444;
+            }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <header>
+            <h1>Human Resources Dashboard</h1>
+        </header>
+
+        <!-- Section 1: Approved Claims -->
+        <div class="grid-item">
+            <h2>Approved Claims</h2>
+            <table id="approved-claims-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Lecturer ID</th>
+                        <th>Hours Worked</th>
+                        <th>Hourly Rate</th>
+                        <th>Total Payment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Approved claims will be dynamically loaded here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Section 2: Generate Reports -->
+        <div class="grid-item">
+            <h2>Generate Reports</h2>
+            <form method="get">
+                <button type="submit" formaction="/hr?handler=GeneratePDFReport" class="btn">
+                    Download Approved Claims Report (PDF)
+                </button>
+            </form>
+        </div>
+
+        <!-- Section 3: Lecturer Management -->
+        <div class="grid-item">
+            <h2>Lecturer Management</h2>
+            <table id="lecturers-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Department</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Lecturers will be dynamically loaded here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            const apiUrl = '/api/HR'; // Base API URL for HR endpoints
+
+            // 1. Fetch Approved Claims
+            function loadApprovedClaims() {
+                $.get(`${apiUrl}/GetApprovedClaims`, function (data) {
+                    const approvedClaimsTable = $("#approved-claims-table tbody");
+                    approvedClaimsTable.empty();
+
+                    data.forEach(claim => {
+                        const row = `<tr>
+                            <td>${claim.id}</td>
+                            <td>${claim.lecturerId}</td>
+                            <td>${claim.hoursWorked}</td>
+                            <td>${claim.hourlyRate}</td>
+                            <td>${claim.totalPayment}</td>
+                        </tr>`;
+                        approvedClaimsTable.append(row);
+                    });
+                }).fail(function () {
+                    alert("Failed to load approved claims.");
+                });
+            }
+
+            // 2. Fetch Lecturers
+            function loadLecturers() {
+                $.get(`${apiUrl}/GetLecturers`, function (data) {
+                    const lecturersTable = $("#lecturers-table tbody");
+                    lecturersTable.empty();
+
+                    data.forEach(lecturer => {
+                        const row = `<tr>
+                            <td>${lecturer.id}</td>
+                            <td><input type="text" value="${lecturer.name}" class="lecturer-name" /></td>
+                            <td><input type="email" value="${lecturer.email}" class="lecturer-email" /></td>
+                            <td><input type="text" value="${lecturer.department}" class="lecturer-department" /></td>
+                            <td>
+                                <button class="btn update-lecturer" data-id="${lecturer.id}">Save</button>
+                            </td>
+                        </tr>`;
+                        lecturersTable.append(row);
+                    });
+
+                    // Add event listener for Save buttons
+                    $(".update-lecturer").click(function () {
+                        const lecturerId = $(this).data("id");
+                        const row = $(this).closest("tr");
+
+                        const updatedLecturer = {
+                            id: lecturerId,
+                            name: row.find(".lecturer-name").val(),
+                            email: row.find(".lecturer-email").val(),
+                            department: row.find(".lecturer-department").val()
+                        };
+
+                        // Update lecturer via AJAX
+                        $.ajax({
+                            url: `${apiUrl}/UpdateLecturer/${lecturerId}`,
+                            method: "PUT",
+                            contentType: "application/json",
+                            data: JSON.stringify(updatedLecturer),
+                            success: function () {
+                                alert("Lecturer updated successfully!");
+                            },
+                            error: function () {
+                                alert("Error updating lecturer.");
+                            }
+                        });
+                    });
+                }).fail(function () {
+                    alert("Failed to load lecturers.");
+                });
+            }
+
+            // Load Approved Claims and Lecturers on Page Load
+            loadApprovedClaims();
+            loadLecturers();
+        });
+    </script>
+</body>
+</html>
