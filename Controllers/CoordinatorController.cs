@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using cmcsapp.Data;
 
-using System.Linq;
+
 using System.Threading.Tasks;
 
 namespace cmcsapp.Controllers

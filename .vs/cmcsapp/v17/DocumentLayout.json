@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\data\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:data\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:wwwroot\\coordinator.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,14 +47,6 @@
       "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:data\\lecturer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:controllers\\coordinatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\data\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:data\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|c:\\users\\freds\\downloads\\progc#\\cmcsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BD1C4BD-1FBE-43D3-B34A-37E9D0DDD0C7}|cmcsapp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -74,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "hr.cshtml",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Pages\\hr.cshtml",
               "RelativeDocumentMoniker": "Pages\\hr.cshtml",
@@ -123,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LecturerController.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Controllers\\LecturerController.cs",
               "RelativeDocumentMoniker": "Controllers\\LecturerController.cs",
@@ -135,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Claim.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Data\\Claim.cs",
               "RelativeDocumentMoniker": "Data\\Claim.cs",
@@ -143,24 +143,25 @@
               "RelativeToolTip": "Data\\Claim.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T15:04:08.28Z"
+              "WhenOpened": "2024-11-20T15:04:08.28Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "coordinator.html",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.html",
               "RelativeDocumentMoniker": "wwwroot\\coordinator.html",
               "ToolTip": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.html",
               "RelativeToolTip": "wwwroot\\coordinator.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-21T12:41:47.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
@@ -172,19 +173,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "CoordinatorController.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Controllers\\CoordinatorController.cs",
               "RelativeDocumentMoniker": "Controllers\\CoordinatorController.cs",
               "ToolTip": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Controllers\\CoordinatorController.cs",
               "RelativeToolTip": "Controllers\\CoordinatorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T12:40:18.581Z"
+              "WhenOpened": "2024-11-21T12:40:18.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "lecturer.js",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.js",
               "RelativeDocumentMoniker": "wwwroot\\lecturer.js",
@@ -196,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "lecturer.html",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\lecturer.html",
               "RelativeDocumentMoniker": "wwwroot\\lecturer.html",
@@ -220,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Lecturer.cs",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\Data\\Lecturer.cs",
               "RelativeDocumentMoniker": "Data\\Lecturer.cs",
@@ -244,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "coordinator.js",
               "DocumentMoniker": "C:\\Users\\freds\\Downloads\\PROGC#\\cmcsapp\\wwwroot\\coordinator.js",
               "RelativeDocumentMoniker": "wwwroot\\coordinator.js",
